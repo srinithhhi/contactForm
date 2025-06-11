@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>📇 Contact Information</h1>
+
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">👤 Name:</label>
+                <input type="text" id="name" placeholder="Enter full name" />
+            </div>
+
+            <div class="form-group">
+                <label for="email">📧 Email ID:</label>
+                <input type="email" id="email" placeholder="Enter email address" />
+            </div>
+
+            <div class="form-group">
+                <label for="phone">📞 Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Enter phone number" />
+            </div>
+
+            <button type="button" onclick="submitForm()">💾 Submit & Save</button>
+        </form>
+
+        <div id="output">
+            <p>No contacts added yet.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
